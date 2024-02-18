@@ -1,0 +1,49 @@
+{
+    "editor.accessibilityPageSize": 17,
+    "editor.fontSize": 20,
+    "editor.fontLigatures": false,
+    "editor.fontVariations": false,
+    "terminal.integrated.fontSize": 18,
+    "editor.wordWrap": "on",
+    "editor.indentSize": "tabSize",
+    "editor.folding": true,
+    "editor.mouseWheelZoom": true,
+    "editor.foldingStrategy": "auto",
+    "terminal.integrated.fontFamily": "Fira Code",
+    "terminal.explorerKind": "both",
+    "terminal.integrated.tabs.enabled": true,
+    "workbench.colorCustomizations": {
+        "scrollbarSlider.background": "#29306e",
+        "scrollbarSlider.hoverBackground": "#3852e4",
+        "scrollbarSlider.activeBackground": "#2a2ac5",
+        "editor.selectionBackground": "#345047b2",
+        "editor.selectionHighlightBackground": "#53dbaeb2",
+        "editor.foldBackground": "#44434365"
+    },
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.letterSpacing": 0.3,
+    "terminal.integrated.lineHeight": 1.5,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "name": "Comment",
+                "scope": [
+                    "comment",
+                    "comment.block",
+                    "comment.block.documentation",
+                    "comment.line",
+                    "comment.line.double-slash",
+                    "punctuation.definition.comment",
+                ],
+                "settings": {
+                    "foreground": "#1d8d8de0", //设置颜色
+                    /*
+                    "fontStyle": "italic", //斜体 
+                    "fontStyle": "italic underline", //斜体下划线 
+                    "fontStyle": "italic bold underline", //斜体粗体下划线
+                    */
+                }
+            },
+        ]
+    }
+}
