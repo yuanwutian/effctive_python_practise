@@ -48,5 +48,9 @@
     },
     "editor.codeActionsOnSave": {
         
+    },
+    "files.associations": {
+        "stdio.h": "c",
+        "string.h": "c"
     }
 }
